@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Arqam Scanner</string>
+    <string name="title_home">Arqam</string>
+    <string name="title_dashboard">Scanner</string>
+    <string name="title_notifications">Explications</string>
+    <string name="button_autorisation_de_sortie">Sortie Autorisée</string>
+    <string name="button_repas_chaud_froid">Type de Plat</string>
+    <string name="button_demi_externe">Externe/Demi-Pens.</string>
+    <string name="initial_message">Aucune carte scannée pour le moment</string>
+    <string name="api_success_exit_permission">API call successful for Exit Permission</string>
+    <string name="api_success_meal_type">API call successful for Meal Type</string>
+    <string name="api_success_boarding_status">API call successful for Boarding Status</string>
+</resources>
