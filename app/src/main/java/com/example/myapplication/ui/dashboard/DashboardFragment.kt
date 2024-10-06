@@ -174,7 +174,9 @@ class DashboardFragment : Fragment() {
         return if (responseBody != null) {
             """
         ${responseBody.firstName} ${responseBody.lastName.uppercase()}
-        ${if (responseBody.mealTypeToday == MealType.HOT) "🔥 Repas chaud" else "❄️ Repas froid"}
+        ${if (responseBody.mealTypeToday == MealType.HOT) "🔥 Repas chaud" 
+            else if (responseBody.mealTypeToday == MealType.COLD) "❄️ Repas froid" 
+                else "\uD83D\uDE22 Pas de plat pour aujourd'hui"}
         ${if (responseBody.alreadyTakenToday) "⚠️ ATTENTION: Repas déjà pris aujourd'hui" else ""}
         """.trimIndent()
         } else {
