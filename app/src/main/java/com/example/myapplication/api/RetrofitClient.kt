@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit
 
 
 object RetrofitClient {
-    private const val BASE_URL = "http://192.168.43.229:3000"
-    private const val ARQAM_BASE_URL = "http://192.168.0.29:3000"
+    private const val BASE_URL = ""
+    private const val ARQAM_BASE_URL = ""
     private var retrofit: Retrofit? = null
 
     private val client: OkHttpClient = OkHttpClient.Builder()
